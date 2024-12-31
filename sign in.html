@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO THIS SITE</title>
+    <style>
+        body {
+            background-image: url("wp2326995.webp");
+            padding: 0px;
+            margin: 0px;
+            border-radius: 3px;
+        }
+
+        #container {
+            border: 5px solid black;
+            text-align: center;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: rgb(218, 4, 4);
+            padding: 30px;
+            padding-left: 10px;
+            border-radius: 50px;
+        }
+
+        #container h1 {
+            color: rgb(0, 0, 0);
+        }
+
+        #container input[type="email"],
+        #container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #container button {
+            padding: 10px 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #container button:hover {
+            background-color: rgb(34, 33, 33);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Sign up to create an account</h1>
+        <form method="post" id="a">
+            <label for="email"><b><h3> Address:</b></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password"><b>Password:</b></label>
+            <input type="password" id="password" name="password" placeholder="Enter your password (minimum 8 characters)" required>
+            <br><br>
+            <label for="confirm-password"><b>Confirm Password:</b></label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+            <br><br>
+            <button type="submit"><b>Submit</b></h3></button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(6, 17, 8);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.thank-you {
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+    max-width: 400px;
+    background-color: #E7F6E7;
+    text-align: center;
+}
+
+.thank-you h2 {
+    color: #4CAF50;
+}
+
+.thank-you p {
+    color: #333;
+}

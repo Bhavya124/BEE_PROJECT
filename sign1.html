@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Sign In</title>
+    <style>
+        #wowK{
+            margin-bottom: 540px;
+            align-content: center;
+        }
+        body {
+            background-size: cover;
+            background-image: url("back.webp");
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: red;
+            border-radius: 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 5px 10px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: red;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: black;
+        }
+
+        /* Style for the form placeholder text */
+        ::placeholder {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="wow">
+    <h1> </h1>
+    </div>
+  
+    <div class="container">
+        <h1>Sign In</h1>
+        <form>
+            <input type="text" placeholder="Enter email here" required>
+            <input type="password" placeholder="Enter password here" required>
+            <input type="submit" value="Sign In" >
+              
+        </form>
+    </div>
+</body>
+</html>
